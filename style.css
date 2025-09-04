@@ -1,0 +1,126 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* ---------------------------
+   Selve siden (body)
+---------------------------- */
+body {
+  font-family: "Roboto", sans-serif; /* Bruger fonten Roboto til al almindelig tekst */
+  color: #222; /* Gør teksten mørkegrå/sort */
+  background: linear-gradient(
+    135deg,
+    #8caed09d,
+    #ffffff
+  ); /* Lys gradient som baggrund */
+  margin: 0; /* Fjerner browserens standard-margin */
+  padding: 1.5em; /* Giver luft hele vejen rundt om siden */
+}
+/* ---------------------------
+   H1 (største overskrift)
+---------------------------- */
+h1 {
+  font-family: "Montserrat", sans-serif; /* Bruger fonten Montserrat til overskrifter */
+  font-size: 26px; /* Gør teksten 26px stor */
+  font-weight: 700; /* Gør teksten fed */
+  line-height: 1.2; /* Lidt ekstra afstand mellem linjer */
+  margin-bottom: 15px; /* Giver luft under overskriften */
+  padding: 8px 25px; /* Giver luft inde i boksen rundt om teksten */
+  display: inline-block; /* Gør at baggrund og skygge kun følger teksten */
+
+  background: #cbd4d680; /* Lys gennemsigtig baggrund */
+  color: #1e3d59; /* Gør teksten mørk blå */
+  box-shadow: 0 4px 12px #0000005d; /* Giver en skygge under boksen */
+  border-radius: 8px; /* Runde hjørner på boksen */
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif; /* Bruger Montserrat til h2 */
+  font-size: 22px; /* Størrelse lidt mindre end h1 */
+  font-weight: 600; /* Semi-fed skrift */
+  margin: 20px 0 10px; /* Luft over og under */
+  padding: 6px 15px; /* Luft indeni boksen */
+  display: inline-block; /* Boks følger kun teksten */
+
+  background: rgba(30, 61, 89, 0.1); /* Lys gennemsigtig blå baggrund */
+  color: #1e3d59; /* Teksten bliver mørk blå */
+  border-radius: 6px; /* Lidt bløde hjørner */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.182); /* Blød skygge */
+}
+
+/* Sikrer at både h1 og h2 står på hver sin linje */
+h1,
+h2 {
+  display: block; /* Tvinger overskrifterne til at stå under hinanden */
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif; /* Bruger Montserrat */
+  font-size: 18px; /* Gør teksten mindre end h2 */
+  font-weight: 500; /* Medium skrifttykkelse */
+  margin: 15px 0 8px; /* Luft over og under */
+  color: #2a4d69; /* Teksten får en blå farve */
+}
+
+/* ---------------------------
+   Paragraf (p)
+---------------------------- */
+p {
+  display: inline-block; /* Gør at teksten står i en boks */
+  padding: 0.8em 1.2em; /* Luft indeni boksen */
+  margin-bottom: 1em; /* Luft under hvert afsnit */
+  background: rgba(255, 255, 255, 0.6); /* Lys gennemsigtig baggrund */
+  border-radius: 12px; /* Runde hjørner */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Diskret skygge */
+  backdrop-filter: blur(6px); /* Giver en “glas” effekt */
+}
+
+/* ---------------------------
+   Definition list (dl, dt, dd)
+---------------------------- */
+dl {
+  margin: 1.5em 0; /* Luft over og under hele listen */
+  padding: 0; /* Fjerner standard padding */
+}
+
+dt {
+  font-family: "Montserrat", sans-serif; /* Bruger Montserrat */
+  font-weight: 500; /* Medium skrifttykkelse */
+  font-size: 0.9rem; /* Lidt mindre skriftstørrelse */
+  margin-top: 1em; /* Luft over hvert term */
+  display: inline-block; /* Gør at termen står i en lille boks */
+  padding: 3px 8px; /* Luft indeni boksen */
+  background: rgba(42, 77, 105, 0.1); /* Lys gennemsigtig baggrund */
+  border-radius: 6px; /* Runde hjørner */
+  color: #2a4d69; /* Blå tekst */
+}
+
+dd {
+  margin: 0.3em 0 0.8em 1.2em; /* Indryk og luft under teksten */
+  font-family: "Roboto", sans-serif; /* Bruger Roboto */
+  font-size: 1rem; /* Normal tekststørrelse */
+  font-weight: 600; /* Gør teksten fed */
+  color: #111; /* Mørk tekst */
+}
+
+footer {
+  font-family: "Montserrat", sans-serif; /* Bruger Montserrat til h2 */
+  font-size: 10px; /* Størrelse lidt mindre end h1 */
+  font-weight: 600; /* Semi-fed skrift */
+  margin: 20px 0 10px; /* Luft over og under */
+  padding: 6px 15px; /* Luft indeni boksen */
+  display: inline-block; /* Boks følger kun teksten */
+
+  background: rgba(30, 61, 89, 0.1); /* Lys gennemsigtig blå baggrund */
+  color: #1e3d59; /* Teksten bliver mørk blå */
+  border-radius: 6px; /* Lidt bløde hjørner */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Blød skygge */
+}
